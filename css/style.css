@@ -1,0 +1,182 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: rgba(219, 226, 236, 0.863);
+    
+}
+
+/*Fuentes a utilizar*/
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url(../fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf);  
+}
+
+@font-face {
+    font-family: 'Roboto Slab Extra Light';
+    src: url(../fonts/Roboto_Slab/static/RobotoSlab-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans Medium 500';;
+    src: url(../fonts/Open_Sans/static/OpenSans/OpenSans-Medium.ttf);
+}
+/*Div principal flex-container*/
+.main{
+    width: 1050px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around; 
+    margin: auto;
+    background: rgba(241, 210, 30, 0.616) ;
+}
+
+/*Primera columna información personal*/
+.informacion_personal { 
+    width: 400px;
+    display: flex;
+    flex-direction:column; 
+    background: #ebd3b0;
+    
+}
+
+#image {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    margin: 10px 10px 10px 50px;
+    border: 3px solid #29221f;
+    border-radius: 50%;
+  
+}
+
+.informacion_personal > section {
+    width: 350px;
+    height: 250px;
+    align-items:flex-start;
+    margin-left: 30px;
+    margin-top: 10px;
+  
+}
+
+.informacion_personal > section img{
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+ 
+}
+
+.informacion_personal > section h2{
+    font-family: 'Roboto Slab Extra Light';
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-left: 5px;
+    
+    
+}
+
+.informacion_personal > section h1{
+    font-family: 'Open Sans Medium 500';
+    font-size: 24px;
+    letter-spacing: 4px;
+    color: rgba(0, 0, 0, 0.);
+    margin-top: 4px;
+       
+}
+
+.informacion_personal .flex-container{
+   display: flex;
+   flex-direction: row;
+}
+
+.seccion_div{
+    width: 330px;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.3) ;
+    border-radius: 15%;
+    margin: 60px 10px 0px 15px;
+
+}
+
+/*Segunda columna perfil profesional*/
+.perfil_profesional{
+    display: flex;
+    flex-direction:column; 
+    width: 650px;
+}
+.perfil_profesional> #name { 
+    height: 310px;
+    background: #29221f;
+    
+}
+
+#name h1{
+    color: #ebd3b0;
+    font-family: 'Times New Roman';
+    font-size: 60px;
+    text-align:left;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    margin: 50px 0px 0px 35px ;
+    -webkit-text-stroke: 1px #ebd4b063;
+
+}
+#name h2{
+    color: #ffff;
+    font-family: 'Open Sans Light';
+    font-size: 25px;
+    letter-spacing: 6px ;
+    margin-top: 20px ;
+    margin-left: 35px;
+    padding-left: 0px ;
+    
+}
+
+.perfil_profesional > #contenido{
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#contenido section{
+    width: 600px;
+    height: 350px;
+    padding: 15px 0px 0px 10px ;
+    margin: 10px 10px 10px 20px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.material-icons{
+    color: #5b8f8f;
+    -webkit-text-stroke: 8px #5b8f8f;
+    
+}
+#contenido > section h2{
+    color: #222222;
+    font-family: 'Roboto Slab Medium';
+    font-size: 16px;
+    text-align:left;
+    padding: 0px 40px 5px 50px;
+}
+
+
+
+#proyectos_img img{
+    width: 200px ;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 15%;
+    margin: 0px 15px 0px 60px;
+    
+}
+
+#proyectos_img img:hover{
+    background: rgba(0, 0, 0, 0.3);
+}
+ 
+
+
